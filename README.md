@@ -11,9 +11,16 @@ A simulated Linux platform project demonstrating:
 Technologies used include:
 
 - Ubuntu Linux
-- Pythong
+- Python
 - Docker
 - Jenkins
 - systemd
 - Bash
 - Github
+
+NOTE: Should be run on Ubuntu OS with all technologies listed installed 
+
+Commands to run & monitor:
+systemctl status device.service
+docker run device-sim
+journalctl -u device.service -f
